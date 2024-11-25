@@ -1,0 +1,125 @@
+/* Logo Styling */
+.logo {
+    width: 170px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display:block; /* Center the logo */
+    margin: 20px auto 0rem; /* Add space below the logo */ 
+}
+.image {
+    all: unset;
+    display: block; /* Makes it behave like a block-level element */
+    margin: 10px auto; /* Centers the image and adds space around it */
+    width:500px; /* Scales the image to fit within its container */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f9f9f9; }
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0; }
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem; }
+header p {
+    font-size: 1.2rem; }
+/* Navigation Bar Styling */
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    /*z-index: 1000*/; }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s; }
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px; }
+/* Section Styling */
+section {
+    padding: 3rem 2rem;
+    text-align: center;
+    margin: 1rem 0; }
+#about, #contact {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+#projects {
+    background-color: #f4f4f4; }
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333; }
+section p {
+    font-size: 1rem;
+    color: #555; }
+/* Project Items */
+.project-item {
+    margin-bottom: 1.5rem; }
+.project-item h3 {
+    font-size: 1.5rem;
+    color: #222; }
+.project-item p {
+    color: #666; }
+/* Contact Form Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left; }
+form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333; }
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem; }
+form textarea {
+    height: 100px; }
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; }
+form button:hover {
+    background-color: #555; }
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem; }
+footer p {
+    font-size: 0.9rem; }
+/* Responsive Design */
+@media (max-width: 768px) 
+    { body {
+        font-size:14px; }
+    nav{
+        flex-direction: comlumn; } }
